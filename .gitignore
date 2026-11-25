@@ -22,3 +22,10 @@ build/
 *.xlsx
 111.txt
 results.txt
+acv2venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+checkpoints/
+work_dirs/

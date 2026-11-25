@@ -2,7 +2,10 @@
 from typing import List, Tuple
 
 import torch
-from mmcv.ops import point_sample
+try:
+ from mmcv.ops import point_sample
+except Exception:
+ point_sample = None
 from mmengine.structures import InstanceData
 from torch import Tensor
 
